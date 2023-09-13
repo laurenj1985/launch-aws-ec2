@@ -9,9 +9,9 @@ phases:
     commands:
       - cd cicd # change directory
       - chmod +x install-tf.sh configure-named-profile.sh apply-tf.sh # make files executable
-      - ./install-terraform.sh # install terraform
+      - ./install-tf.sh # install terraform
       - ./configure-named-profile.sh # configure named profile
 
   build:
     commands:
-      - ./apply-terraform.sh
+      - ./apply-tf.sh
